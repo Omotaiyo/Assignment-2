@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">AltSchool Schools</a>
+            <a href="#goals">Goals</a>
+            <a href="#myJourney">My Journey</a>
+        </nav>
+    </header>
+    <div class="media-container">
+        <main>
+        <h1>About Me</h1>
+
+        <!-- Picture element -->
+             <section class="picture-container">
+                 <picture>
+                     <source media="(max-width: 750px)" srcset="./img/my-photo.jpg">
+                     <source media="(max-width: 1500px)" srcset="./img/my-photo.jpg">
+                     <source media="(min-width: 2500px)" srcset="./img/my-photo.jpg">
+                     <img src="./img/my-photo.jpg" alt="My Journey Image">
+                 </picture>
+                 <p class="my-sef">This Is Me</p>
+             </section>
+     
+             <!-- Audio element -->
+             <section class="audio-container">
+                 <audio controls>
+                     <source src="./audio/In My Maserati.mp3" type="audio/mpeg" />
+                     Your browser does not support the audio element.
+                 </audio>
+                 <p>This is my Best Music</p>
+             </section>
+     
+             <!-- Video element -->
+             <section class="video-container">
+                 <video controls>
+                     <source src="./video/Video.mp4" type="video/mp4" />
+                     Your browser does not support the video tag.
+                 </video>
+                 <p>This video showcases my work field.</p>
+             </section>
+     
+             <!-- Image element -->
+             <section class="image-container">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRU_XT_6fSIzb7tSfe1PazMka6T58PTvyH3A&s" alt="Inspirational Image" />
+                 <p>This image inspires me to keep pushing my boundaries and achieve more.</p>
+             </section>
+     
+             <!-- Embedded content (iframe) -->
+             <section class="iframe-container">
+                 <iframe
+    src="https://www.youtube.com/embed/LEK2R58xdsk"
+    title="Video Title"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    frameborder="0"
+    width="100%"
+    height="auto"
+></iframe>
+
+                 <p>Here is a video that deeply resonates with my journey in tech.</p>
+             </section>
+     
+             <!-- Additional content -->
+             <section class="extra-content">
+                 <h2 id="myJourney">My Journey</h2>
+                 <p>
+                     My journey in tech has been both challenging and rewarding. I started with a passion for technology and have continuously expanded my skills through various projects and experiences. This section will delve into the key milestones and learning experiences that have shaped my career.
+                 </p>
+                
+                 <h2 id="goals">Future Goals</h2>
+                 <p>
+                     Looking ahead, I am excited to continue growing in the tech field. My goals include working on cutting-edge projects, contributing to open-source communities, and constantly enhancing my knowledge and skills. I am committed to making a positive impact through technology and innovation.
+                 </p>
+             </section>
+         </div>
+    </main>
+</body>
+</html>
